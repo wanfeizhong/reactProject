@@ -1,0 +1,73 @@
+{
+  "name": "rocReact",
+  "version": "1.0.0",
+  "description": "初始化框架",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QQ8500999/rocPackageJSON.git"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "start": "webpack-dev-server --hot --inline",
+    "dev": "./node_modules/.bin/webpack-dev-server --config build/webpack.dev.config.js --hot --inline",
+    "s": "webpack-dev-server --progress --colors",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "p": "webpack -p"
+  },
+  "keywords": [
+    "js",
+    "es6",
+    "react",
+    "webpack2",
+    "webpack-dev-server"
+  ],
+  "author": "Roc",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.0.0",
+    "babel-plugin-import": "1.2.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-runtime": "6.23.0",
+    "consolidate": "0.14.5",
+    "css-loader": "0.28.4",
+    "file-loader": "0.11.2",
+    "html-loader": "0.4.5",
+    "imports-loader": "0.7.1",
+    "json-loader": "0.5.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.3",
+    "open-browser-webpack-plugin": "0.0.5",
+    "react-router-dom": "^4.1.1",
+    "sass-loader": "6.0.5",
+    "style-loader": "0.18.2",
+    "template-html-loader": "1.0.0",
+    "text-loader": "0.0.1",
+    "url-loader": "0.5.9",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.4.5",
+    "whatwg-fetch": "2.0.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0",
+      "react"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "antd": "2.11.0",
+    "react": "15.6.0",
+    "react-dom": "15.6.0",
+    "react-router": "4.1.1"
+  }
+}
